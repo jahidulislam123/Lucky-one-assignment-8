@@ -6,7 +6,7 @@
 }
 
 .book {
-    border: 1px solid rgb(92, 68, 68);
+    /* border: 1px solid crimson; */
     border-radius: 9px;
     padding-left: 0;
     padding-right: 0;
@@ -18,21 +18,17 @@
 
 .book button {
     width: 100%;
-    background-color: orange;
+    background-color: crimson;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     font-weight: 800;
     padding-top: 5px;
     padding-bottom: 5px;
+    color: white;
 }
 
 .book button:hover {
-    background-color: crimson;
-    color: white;
-
-}
-
-b.font-icon {
+    background-color: orange;
     color: black;
-    margin-left: 8px;
+
 }

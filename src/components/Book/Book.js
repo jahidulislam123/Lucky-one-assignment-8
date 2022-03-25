@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Singlebook from './Singlebook';
 import './Book.css'
+import Cart from './Cart';
 
 const Book = () => {
     const[books,setBook]=useState([]);
@@ -18,9 +19,10 @@ const Book = () => {
             }
             </div>
             <div>
-                <h3>some is the better than nothing </h3>
-
+                <Cart></Cart>
+                
             </div>
+            
             
         </div>
     );
