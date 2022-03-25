@@ -9,16 +9,4 @@
     grid-template-columns: 4fr 1fr;
 
 
-
-
-}
-
-.book button {
-    width: 100%;
-    background-color: orange;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    font-weight: 800;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
