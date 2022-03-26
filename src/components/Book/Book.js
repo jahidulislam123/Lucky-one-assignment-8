@@ -17,6 +17,10 @@ const Book = () => {
         const newCart=[...cart,book];
         setCart(newCart);
     }
+
+    const removeCart=()=>{
+        setCart([]);
+    }
     
    
 
@@ -29,12 +33,13 @@ const Book = () => {
 
                     book={book}
                     handleAddToCart={handleAddToCart}
+                   
                     ></Singlebook> )
             }
             </div>
             <div>
                 {/* <p>item{cart.length}</p> */}
-                <Cart   cart={cart} ></Cart>
+                <Cart   cart={cart}  removeCart={removeCart} ></Cart>
                 
             </div>
             
