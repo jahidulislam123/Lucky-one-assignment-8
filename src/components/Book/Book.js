@@ -11,11 +11,22 @@ const Book = () => {
         .then(data=>setBook(data));
     },[])
 
+    const handleAddToCart=(book)=>{
+        console.log(book);
+    }
+    
+   
+
     return (
         <div className='container' >
             <div className='books'>
             {
-                books.map(book=> <Singlebook book={book} ></Singlebook> )
+                books.map(book=> <Singlebook 
+                    key={book.id}
+
+                    book={book}
+                    handleAddToCart={handleAddToCart}
+                    ></Singlebook> )
             }
             </div>
             <div>
