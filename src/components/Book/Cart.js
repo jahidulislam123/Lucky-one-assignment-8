@@ -16,9 +16,9 @@ const Cart = (props) => {
     }
     
    
-    function random(arr){
+    function random(){
         
-        var item = arr[Math.floor(Math.random()*arr.length)];
+        var item = arr[Math.floor(Math.random()*arr.length)+0];
         
             alert(item); 
     }
@@ -33,11 +33,13 @@ const Cart = (props) => {
             
             <h1>Selected Cloths :{props.cart.length}</h1>
             <h2>Name:</h2> <p className='li' >{name}</p> <br /><br /><br />
-                <button onClick={()=>random(arr)} >Choose 1 for me</button> <br />  <br />
+                <button onClick={random} >Choose 1 for me</button> <br />  <br />
                 <button onClick={()=>removeCart()} >Choose Again</button>
                
 
+                
         </div>
+        
     );
 };
 

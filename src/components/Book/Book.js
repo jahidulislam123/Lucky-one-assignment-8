@@ -17,6 +17,11 @@ const Book = () => {
         const newCart=[...cart,book];
         setCart(newCart);
     }
+    // const[suggest,setSuggest]=useState;
+    // const suggestProduct =(books)=>{
+    //     const newCart=[books]
+    //     setSuggest(newCart);
+    // }
 
     const removeCart=()=>{
         setCart([]);
@@ -39,7 +44,7 @@ const Book = () => {
             </div>
             <div>
                 {/* <p>item{cart.length}</p> */}
-                <Cart   cart={cart}  removeCart={removeCart} ></Cart>
+                <Cart  cart={cart}  removeCart={removeCart}  ></Cart>
                 
             </div>
             
