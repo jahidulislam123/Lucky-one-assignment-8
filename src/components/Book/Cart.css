@@ -24,3 +24,14 @@ h2 {
     color: bisque;
     list-style: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .Cart {
+        display: block;
+
+    }
+
+
+
+
+}

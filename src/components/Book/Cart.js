@@ -15,8 +15,6 @@ const Cart = (props) => {
         
     }
    
-   
-    
     function random(){
         
         var item = arr[Math.floor(Math.random()*arr.length-1)+0];
@@ -24,8 +22,6 @@ const Cart = (props) => {
             alert(item); 
     }
         
-    
-    
          function deleted(cart){
              cart='';
 
