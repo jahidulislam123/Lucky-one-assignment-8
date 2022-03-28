@@ -25,6 +25,8 @@ h2 {
     list-style: none;
 }
 
+/* //hayre hay */
+
 @media only screen and (max-width: 600px) {
     .Cart {
         position: relative;
