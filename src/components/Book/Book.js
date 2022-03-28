@@ -42,7 +42,7 @@ const Book = () => {
                     ></Singlebook> )
             }
             </div>
-            <div>
+            <div  className='cart' >
                 {/* <p>item{cart.length}</p> */}
                 <Cart  cart={cart}  removeCart={removeCart}  ></Cart>
                 

@@ -22,10 +22,16 @@
     .container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* flex-direction: column; */
-        /* flex-wrap: wrap; */
+        /* .books{} */
+        /* flex-direction: column;
+        flex-wrap: wrap; */
 
 
     }
+
+
+
+
+
 
 }
